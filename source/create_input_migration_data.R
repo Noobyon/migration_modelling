@@ -28,12 +28,19 @@ totals_data <- bind_cols(total_arrivals,total_departures) %>%
 ##Compute short term border-crossing data and combine with the migration data
 
 border_crossing_data <- bind_cols(migration_data,totals_data) %>%
-                            mutate(short_term = total - long_term) %>%
-                              select(YearMonth, direction, long_term, short_term) %>%
-                                  gather(mig_status, count, long_term, short_term)
+  mutate(short_term = total - long_term) %>%
+  select(YearMonth, direction, long_term, short_term) %>%
+  gather(mig_status, count, long_term, short_term) %>%
+  separate(col = YearMonth, into = c("Year", "Month"), sep = "M") %>%
+  mutate(Month = as.integer(Month),
+         Month = month.abb[Month]) %>%
+  mutate(time = paste(Month, Year, sep = "-")) %>%
+  select(time, direction, mig_status, count)
                                 
-
 ##Write data to file
 
 write_csv(border_crossing_data, "out/migration_data_2001_2019.csv")
+saveRDS(border_crossing_data, "out/migration_data_2001_2019.rds")
                     
+
+
