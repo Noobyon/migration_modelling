@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1556340778946.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "EE6D32F7",
+    "lastKnownWriteTime" : 32088628386725934,
+    "last_content_update" : 1556340778946,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "89946885",
+        "caption" : "migration_arrivals",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=migration_arrivals&cache_key=89946885",
+        "displayedObservations" : "218",
+        "environment" : "",
+        "object" : "migration_arrivals",
+        "preview" : "0",
+        "totalObservations" : "218",
+        "variables" : "2"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

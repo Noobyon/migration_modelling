@@ -1,0 +1,5 @@
+x <- c(2,5,3,9,8,11,6)
+count <- 0
+for (val in 1:100) {
+  val_sq[val] <- sin(2*pi*val*0.01)
+}

@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1556351393484.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3ACC527D",
+    "lastKnownWriteTime" : 3419473789575321445,
+    "last_content_update" : 1556351393484,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "F2EA9B",
+        "caption" : "migration_data_wide",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=migration_data_wide&cache_key=F2EA9B",
+        "displayedObservations" : 218,
+        "environment" : "",
+        "object" : "migration_data_wide",
+        "preview" : 0,
+        "totalObservations" : 218,
+        "variables" : 3
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
